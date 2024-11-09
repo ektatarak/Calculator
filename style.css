@@ -1,0 +1,102 @@
+body{
+ background-image: url('https://media.istockphoto.com/id/1419844586/vector/stem-blue-horizontal-frame-vector-education-bright-illustration.jpg?s=612x612&w=0&k=20&c=-A1eYLYulujNsiM26lkVy7qMT_Hp82N5EtKHSFRmigk=');
+ background-repeat: no-repeat;
+   width:100%;
+  height:100vh;
+  background-attachment: fixed;
+ position: fixed;
+  background-size: cover;
+ 
+  
+     
+  background-position: center;
+  margin:0 auto;
+text-align: center;
+
+}
+.row{
+    margin:0;
+    padding:5px 0px;
+    font-size: medium;
+   
+  
+}
+.row-input{
+    background-color: skyblue;
+  border:2px solid skyblue;
+ border-radius: 10px;
+ max-width: 300px;
+ min-width: 100px;
+ margin: 0 auto;
+ 
+ box-shadow: 6px 6px 13px skyblue,
+    6px 6px 13px rgb(0, 0, 0);
+ border-color: skyblue;
+ 
+
+
+}
+
+ input{
+  height:10px;
+  width: 190px;
+  border-radius: 20px;
+  text-align: end;
+  font-size: 40px;
+  margin:40px 0px 30px 0px;
+  padding:25px;
+  background-color:#ffffff;
+  border-color: #ffffff;
+
+
+
+ 
+ }  
+  
+ .equal{
+    width:105px;
+    border-radius: 5px;
+    background-color:greenyellow;
+    margin-bottom: 20px;
+    box-shadow: 6px 6px 13px greenyellow,
+    6px 6px 13px rgb(0, 0, 0);
+ border-color: greenyellow;
+
+
+ }
+ button{
+  
+    border-radius: 10%;
+    width: 50px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:yellow;
+    box-shadow: 6px 6px 13px yellow,
+    6px 6px 13px rgb(0, 0, 0);
+ border-color: yellow;
+ cursor:pointer;
+ }
+ 
+@media(max-width:768px){
+    .row-input {
+        max-width: 260px;
+        min-width: 100px;  
+     
+    
+          }
+
+    body{
+        width:100%;
+        height: 100vh;
+    }
+}
+h1{
+    margin: 1 auto;
+    font-size: 25px;
+    color:#ffffff;
+   font-family: 'Lato', sans-serif;
+   margin-top: 12%;
+
+}
+
